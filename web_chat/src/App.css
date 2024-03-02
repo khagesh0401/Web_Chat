@@ -20,7 +20,13 @@ body {
 .contact-list {
   width: 30%;
   height: 96%;
-  background-color: #db5555f5;
+  /* background-color: #c94e4ef5; */
+  background-image: linear-gradient(
+    to right,
+    rgba(206, 70, 70, 0.96),
+    rgba(223, 102, 102, 0.96)
+  );
+
   border: 0;
   border-radius: 20px 0 0 20px;
   margin: 15px 0;
@@ -33,6 +39,8 @@ body {
   border: 0;
   border-radius: 0 20px 20px 0;
   margin: 15px 0;
+  text-align: center;
+  /* font-size: 12vh; */
   text-align: center;
 }
 .media-bar {
@@ -51,4 +59,97 @@ body {
   border: 0;
   border-radius: 12px;
   background-color: rgb(230, 236, 236);
+  opacity: 0.4;
+  color: rgb(3, 3, 3);
+}
+.search-contact-div img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  transform: translateY(3px) translateX(8px);
+}
+.logo-collection {
+  height: 87vh;
+  color: #252a2e;
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 0.7;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  margin-top: 17px;
+  padding-right: 9px;
+  padding-left: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+hr {
+  width: 3vw;
+  height: 1px;
+  background-color: rgb(234, 234, 234);
+  opacity: 0.28;
+}
+
+.allchat:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.work:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.friends:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.news:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.archivechat:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.profile:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.edit:hover {
+  background-color: rgb(169, 166, 166);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.allchat {
+  padding: 5px;
+}
+.work {
+  padding: 5px;
+}
+.friends {
+  padding: 5px;
+}
+.news {
+  padding: 5px;
+}
+.archivechat {
+  padding: 5px;
+}
+.profile {
+  padding: 5px;
+}
+.edit {
+  padding: 5px;
+}
+.chatwindow-logo {
+  height: 50vh;
+  margin-top: 10%;
+  margin-right: -20px;
+  opacity: 0.4;
 }
